@@ -1,0 +1,46 @@
+.options {
+  background-color: #fff;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+
+.options__top {
+  width: 100%;
+  justify-content: space-between;
+}
+
+.twitter__icon {
+  color: var(--twitter-color);
+}
+
+.options__top h6 {
+  line-height: 1;
+}
+
+.options__top span {
+  font-size: 10px;
+}
+
+.options__middle p {
+  font-size: 12px;
+}
+
+.options img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+.option__bottom {
+  display: flex;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.option__bottomRight {
+  flex: 1;
+}
+
+.option__bottomRight p {
+  font-size: 14px;
+}

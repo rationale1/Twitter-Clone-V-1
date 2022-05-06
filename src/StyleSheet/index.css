@@ -1,0 +1,85 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+
+  /* border: none; */
+  outline: none;
+  text-decoration: none;
+  list-style-type: none;
+  /* text-transform: capitalize; */
+  transition: all 0.7s ease-in-out;
+}
+
+/*================= Base Style =================*/
+body {
+  line-height: 1.5;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+  font-family: sans-serif;
+
+  --twitter-color: #50b7f5;
+  --twitter-background: #e6ecf0;
+}
+
+img {
+  height: auto;
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+}
+
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.d-column {
+  flex-direction: column;
+}
+
+.ai-center {
+  align-items: center;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+.jc-between {
+  justify-content: space-between;
+}
+
+.jc-around {
+  justify-content: space-around;
+}
+
+.gap-1 {
+  gap: 0.5rem;
+}
+
+.gap-2 {
+  gap: 1rem;
+}
+
+input {
+  border: none;
+}
+
+.app {
+  /* border: 1px solid red; */
+  min-height: 100vh;
+  display: flex;
+  width: 1300px;
+  margin-inline: auto;
+}

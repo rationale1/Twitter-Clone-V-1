@@ -1,0 +1,19 @@
+.widget {
+  flex: 0.2;
+  padding-inline: 1rem;
+
+  position: sticky;
+  top: 0;
+  height: 100vh;
+}
+
+.widget__section {
+  border-radius: 0.5rem;
+  background: var(--twitter-background);
+  height: 90vh;
+  padding: 0.6rem 1rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
